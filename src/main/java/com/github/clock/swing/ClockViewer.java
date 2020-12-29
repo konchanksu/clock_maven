@@ -28,6 +28,7 @@ public class ClockViewer extends JComponent{
     private Clock clock;
     private Image background;
     private boolean debugMode = false;
+    private Args args;
 
     public ClockViewer(Clock clock, Args args){
         this.args = args;
